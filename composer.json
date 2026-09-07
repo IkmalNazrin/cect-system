@@ -1,0 +1,19 @@
+{
+    "name": "rein/cect_system",
+    "description": "cect_system",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Rein\\CectSystem\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "IKMAL NAZRIN BIN AZIZ 294501",
+            "email": "ikmalnazrin256@gmail.com"
+        }
+    ],
+    "require": {
+        "google/apiclient": "2.15"
+    }
+}

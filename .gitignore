@@ -1,0 +1,21 @@
+# Local environment (secrets)
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+/vendor/
+vendor.zip
+
+# Logs
+*.log
+error.log
+
+# User uploads
+/uploads/
+/assets/uploads/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.qodo
