@@ -4,6 +4,13 @@ Final Year Project — **Campus Event & Club Ticketing (CECT) System**.
 
 A web application for campus event discovery, registration/ticketing, organizer workflows, payments (ToyyibPay sandbox), Google sign-in, and email notifications.
 
+🌐 **Live Website:** [https://cect.site.je](https://cect.site.je) (Hosted on InfinityFree)
+
+## Live Deployment
+
+The system is deployed and hosted live on InfinityFree:
+- **Production URL:** [https://cect.site.je](https://cect.site.je) (or [http://cect.site.je](http://cect.site.je))
+
 ## Features
 
 - User registration, login, and Google OAuth
@@ -14,11 +21,12 @@ A web application for campus event discovery, registration/ticketing, organizer 
 
 ## Tech stack
 
-- PHP (XAMPP)
+- PHP (XAMPP / Apache)
 - MySQL (PDO)
 - Composer (`google/apiclient`)
 - PHPMailer
 - Tailwind / Alpine-style front-end pages
+- InfinityFree (Cloud Web Hosting)
 
 ## Screenshots
 
@@ -46,7 +54,8 @@ _Add screenshots of the home page, event booking, and admin dashboard here._
 
 5. Point your browser to:
 
-   `http://localhost/cect_system/`
+   - **Live Production:** [https://cect.site.je](https://cect.site.je)
+   - **Local Development:** `http://localhost/cect_system/`
 
 ## Credentials & secrets
 
@@ -59,3 +68,4 @@ All API keys, OAuth secrets, SMTP passwords, and database credentials live in **
 ## Author
 
 IKMAL NAZRIN BIN AZIZ
+

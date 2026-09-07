@@ -1,7 +1,9 @@
 # Local environment (secrets)
 .env
-.env.local
-.env.*.local
+.env.*
+!.env.example
+*.sql
+!includes/database.sql
 
 # Dependencies
 /vendor/
